@@ -2,21 +2,21 @@ import random
 from point import Point
 
 class FallingObject:
-"""
-FallingObject class is parent class for gem, rock, and mine class
-sets how the ojects "fall" down the screen
+    """
+        FallingObject class is parent class for gem, rock, and mine class
+        sets how the ojects "fall" down the screen
 
-attributes:
-    appearance: place holder that allows child classes to set their own appearances
+        attributes:
+        appearance: place holder that allows child classes to set their own appearances
+        
+        position: randomly populates objects into random location at top of screen
+        has random x position and y position set at 0 so its top of screen
+        
+        points: place holder that allows child classes to set their own point values for scoring  
     
-    position: randomly populates objects into random location at top of screen
-    has random x position and y position set at 0 so its top of screen
-    
-    points: place holder that allows child classes to set their own point values for scoring  
-   
-    move_counter: allows for smooth movement of player and falling objects
+        move_counter: allows for smooth movement of player and falling objects
 
-"""
+    """
     def __init__(self):
         #constructor for FallingObject class
         self.appearance = "0"

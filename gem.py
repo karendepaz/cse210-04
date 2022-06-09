@@ -1,4 +1,4 @@
 from falling_object import FallingObject
 
-class Mine:
+class Gem:
     pass

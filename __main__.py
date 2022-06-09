@@ -4,4 +4,5 @@ Starts the game
 """
 
 #open window / start game 
-Game()
+game = Game()
+game.start_game()
